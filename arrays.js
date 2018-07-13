@@ -27,3 +27,9 @@ function destructivelyAddElementToEndOfArray (anArr, anElem) {
 function accessElementInArray (anArr, idx) {
   return anArr[idx];
 }
+
+function destructivelyRemoveElementFromBeginningOfArray (anArr, anElem) {
+  anArr.shft(anElem);
+
+  return anArr;
+}
