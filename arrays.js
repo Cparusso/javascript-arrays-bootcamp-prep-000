@@ -39,3 +39,9 @@ function removeElementFromBeginningOfArray (anArr, anElem) {
 
   return newArr;
 }
+
+function destructivelyRemoveElementFromEndOfArray (anArr) {
+  anArr.pop();
+
+  return anArr;
+}
