@@ -11,3 +11,15 @@ function destructivelyAddElementToBeginningOfArray (anArr, anElem) {
 
   return anArr;
 }
+
+function addElementToEndOfArray (anArr, anElem) {
+  var newArr = [anElem, ...anArr];
+
+  return newArr;
+}
+
+function destructivelyAddElementToEndOfArray (anArr, anElem) {
+  anArr.unshift(anElem);
+
+  return anArr;
+}
