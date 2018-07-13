@@ -29,7 +29,7 @@ function accessElementInArray (anArr, idx) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (anArr, anElem) {
-  anArr.shft(anElem);
+  anArr.shift(anElem);
 
   return anArr;
 }
